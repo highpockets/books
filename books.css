@@ -1,0 +1,51 @@
+h1{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(255, 144, 8, 0.563);
+    text-shadow: 1px 1px rgb(41, 30, 0);
+}
+
+.container{
+    display: block;
+    text-align: center;
+}
+
+#book-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    background-image: radial-gradient(rgba(199, 114, 68, 0.604), rgba(94, 53, 31, 0.591));
+    padding: 3px;
+    box-shadow: 2px 3px 5px black;
+}
+
+th, td{
+    border: 1px solid black;
+    font-size: 28px;
+    padding: 5px;
+}
+
+td{
+    background-image: linear-gradient(rgba(175, 175, 175, 0.7), rgba(50, 50, 50, 0.125));
+}
+
+th{
+    height: 50px;
+    background-image: linear-gradient(rgb(97, 75, 61), rgba(63, 63, 63, 0.495));
+    color: rgba(255, 144, 8, 0.098);
+    text-shadow: 1px 1px rgb(175, 126, 0);
+}
+
+button, select{
+    background-image: radial-gradient(rgb(225, 225, 225), rgba(67, 67, 67, 0.467));
+    font-size: 24px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 5px;
+}
+
+#add-book-container{
+    margin: 30px;
+}
